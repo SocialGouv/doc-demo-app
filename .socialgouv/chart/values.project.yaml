@@ -3,3 +3,4 @@ components:
 
 app:
   imagePackage: app
+  probesPath: /healthz
