@@ -1,11 +1,6 @@
 name: Review
 
-on:
-  push:
-    branches-ignore:
-      - "master"
-    tags-ignore:
-      - v*
+on: push
 
 jobs:
   ##############################################################################
