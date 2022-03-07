@@ -2,10 +2,4 @@ components:
   app: true
 
 app:
-  envFrom:
-    - secretRef:
-        name: app
-  env:
-    - name: NEXTAUTH_URL
-      value: https://{{ .Values.global.host }}
   imagePackage: app
