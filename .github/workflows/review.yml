@@ -19,7 +19,7 @@ jobs:
       - name: Use autodevops build and register
         uses: SocialGouv/actions/autodevops-build-register@v1
         with:
-          imageName: doc-demo-app
+          imageName: doc-demo-app/app
           token: ${{ secrets.GITHUB_TOKEN }}
           dockerbuildargs: |
             GITHUB_SHA=${{ env.GITHUB_SHA }}
